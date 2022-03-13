@@ -1,0 +1,143 @@
+<div>
+  <h1 class="text-start titulo">CV y Certificados</h1>
+</div>
+
+
+<div class="container-fluid">
+
+
+<div class="micv">
+  <button mat-button (click)="abrirCv()" (mouseover)="addClass()" color="primary">MÍ CV</button>
+  <img class="img1" src="../../../../assets/img/Copia de 4.png" alt="">
+</div>
+
+<mat-accordion [multi]="true">
+
+    <mat-expansion-panel (opened)="panelOpenState = true"
+                         (closed)="panelOpenState = false">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          React
+        </mat-panel-title>
+        <mat-panel-description>
+        Juan Pablo de la Torre Valdez 
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      <div class="contgral">
+        <p class="col-8">En este curso realizamos diferentes aplicaciones. Integrando Mongo, Node y Express con React. En las mismas hay request CRUD, conexiones con APIS a través de FETCH API y Axios. Hooks, components, REDUX, manejo de validaciones, formularios, context, Style Components. Realizamos algunas aplicaciones Server Side Rendering utilizando Next y Gatsby. Hicimos los deployment de las aplicaciones en Netlify, Heroku y Zeit. También vimos conceptos de testing a React a través de Jets y Cypress.</p>
+      <div class="contenedorimg">
+        <img (click)="abrirCertificado()" src="../../../../assets/img/React.png" alt="">
+      </div>
+      </div>
+    </mat-expansion-panel>
+
+  <mat-expansion-panel (opened)="panelOpenState = true"
+  (closed)="panelOpenState = false">
+<mat-expansion-panel-header>
+<mat-panel-title>
+JavaScript Moderno
+</mat-panel-title>
+<mat-panel-description>
+Juan Pablo de la Torre Valdez 
+</mat-panel-description>
+</mat-expansion-panel-header>
+<div class="contgral">
+<p class="col-8">En este curso primero vimos los conceptos de cero a avanzado en JavaScript Moderno. Manejo del DOM, eventos, POO, arreglos, objetos, condicionales, funciones y sus tipos, generadores, iteradores, promises, template literals, prototypes, clases, herencia, etc. Luego realizamos diferentes aplicaciones, utilizando diferentes tecnologías como React, Node, Express, MongoDB,y Electron. También consumimos en otras, APIS con JSON y Fetch. Por últimos vimos nociones al testing con Jest y Cypress, debug y performance.</p>
+<div class="contenedorimg">
+<img (click)="abrirCertificado1()" src="../../../../assets/img/javascriptmoderno.png" alt="">
+</div>
+</div>
+</mat-expansion-panel>
+
+<mat-expansion-panel (opened)="panelOpenState = true"
+(closed)="panelOpenState = false">
+<mat-expansion-panel-header>
+<mat-panel-title>
+CSS Flexbox y Grid
+</mat-panel-title>
+<mat-panel-description>
+Juan Pablo de la Torre Valdez 
+</mat-panel-description>
+</mat-expansion-panel-header>
+<div class="contgral">
+<p class="col-8">En este curso realizamos diferentes diseños de páginas enfocados en prácticar las técnicas y herramientas de CSS3 como Flexbox y CSS Grid, nociones generales, sintáxis, estructuras, diseño Responsive, media queries, posicionamiento, imágenes (webp), logos, HTML5 (etiquetas, formularios, video) etc. Gulp Workflows, SASS (mixins, variables), perfomance. Utilicé en algunos de los proyectos Tailwind, Bootstrap y Skeleton.</p>
+<div class="contenedorimg">
+<img (click)="abrirCertificado2()" src="../../../../assets/img/gridflexbox.png" alt="">
+</div>
+</div>
+</mat-expansion-panel>
+
+<mat-expansion-panel (opened)="panelOpenState = true"
+(closed)="panelOpenState = false">
+<mat-expansion-panel-header>
+<mat-panel-title>
+Desarrollo Web Completo
+</mat-panel-title>
+<mat-panel-description>
+Juan Pablo de la Torre Valdez 
+</mat-panel-description>
+</mat-expansion-panel-header>
+<div class="contgral">
+<p class="col-8">En este curso trabajamos realizando diferentes páginas web utilizando diferentes tecnologías como HTML5, CSS3, SASS, GULP, JAVASCRIPT. Realizamos galerías, navegaciones, formularios, validaciones, un carrito con cotizador, registros a la base de datos, CRUD`S (Postman), sistema de inicio de sesión, agregar la información dinámicamente desde el backend con una base de datos MySQL administrada a través de TablePlus. Conectamos también en algunas de estos proyectos con API´S.</p>
+<div class="contenedorimg">
+<img (click)="abrirCertificado3()" src="../../../../assets/img/webcompleto1-1.png" alt="">
+</div>
+</div>
+</mat-expansion-panel>
+
+<mat-expansion-panel (opened)="panelOpenState = true"
+(closed)="panelOpenState = false">
+<mat-expansion-panel-header>
+<mat-panel-title>
+Desarrollo Web Completo
+</mat-panel-title>
+<mat-panel-description>
+Ubaldo Acosta
+</mat-panel-description>
+</mat-expansion-panel-header>
+<div class="contgral">
+<p class="col-8">En este curso vimos principalmente: HTML5 ( estructuras, sintáxis, elementos y etiquetas, manejo de imágenes, listas, tablas, formularios, clases, importar hojas de estilos, scripts, fuentes, iconos, etc). – CSS3 (Selectores, sintáxis, media queries, posicionamiento, colores, bordes, márgenes, padding, fuentes, imágenes, íconos, display, gradientes, sombras, transiciones, flexbox, etc. -JavaScript ( Tipos de datos, operadores, ciclos, arreglos, funciones, objetos, clases, manejo de herencia. POO, manejo de errores, arrow y callbacks functions, promises, manejo del dom, eventos, etc.</p>
+<div class="contenedorimg">
+<img (click)="abrirCertificado4()" src="../../../../assets/img/webcompleto2-1.png" alt="">
+</div>
+</div>
+</mat-expansion-panel>
+
+<mat-expansion-panel (opened)="panelOpenState = true"
+(closed)="panelOpenState = false">
+<mat-expansion-panel-header>
+<mat-panel-title>
+WordPress y WooCommerce
+</mat-panel-title>
+<mat-panel-description>
+Juan Pablo de la Torre Valdez 
+</mat-panel-description>
+</mat-expansion-panel-header>
+<div class="contgral">
+<p class="col-8">En este curso conocí WordPress, y a través de complementarlo con WooCommerce realizamos un sitio web responsive, con tienda virtual. Aquí utilicé las diferentes herramientas de WordPress, como pluggins para diseño, cobros, funcionalidades, botones de carro de compras, de menú etc. A su vez, también a la carpeta del proyecto le sumamos un archivo .css para complementar y realizar un diseño mas personal al sitio. Por último le asigne el dominio www.doblerueda.online y lo hospedé en Hostinguer.</p>
+<div class="contenedorimg">
+<img (click)="abrirCertificado5()" src="../../../../assets/img/certwordpress-1.png" alt="">
+</div>
+</div>
+</mat-expansion-panel>
+
+<mat-expansion-panel (opened)="panelOpenState = true"
+(closed)="panelOpenState = false">
+<mat-expansion-panel-header>
+<mat-panel-title>
+JavaScript(EC5)
+</mat-panel-title>
+<mat-panel-description>
+Fernando Herrera
+</mat-panel-description>
+</mat-expansion-panel-header>
+<div class="contgral">
+<p class="col-8">Conceptos generales, sintaxis, variables, tipos de datos, funciones y sus tipos, objetos, arreglos, iteradores, condicionales, prototypes, JSON.</p>
+<div class="contenedorimg">
+<img (click)="abrirCertificado6()" src="../../../../assets/img/certjsfherrera-1.png" alt="">
+</div>
+</div>
+</mat-expansion-panel>
+</mat-accordion>
+
+</div>

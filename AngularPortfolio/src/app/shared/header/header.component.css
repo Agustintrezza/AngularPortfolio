@@ -1,0 +1,107 @@
+.contseleccion {
+    width: 50%;
+}
+.bg-dark {
+    background-color: #1e1e2f !important;
+    height: 85px;
+}
+a.sidenav-button {
+    display: inline;
+    color: rgba(255, 255, 255, .5);
+    margin-right: 10px;
+    transition: all .3s ease 0s;
+}
+a.sidenav-button:hover {
+    color: rgba(255, 255, 255, .8);
+    transition: all .3s ease 0s;
+}
+.navbar .photo {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    vertical-align: middle;
+    overflow: hidden;
+}
+.navbar .photo img {
+    width: 32px;
+    height: 30px;
+}
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+    justify-content: end;
+}
+.menuheader {
+    margin-top: 0px;
+    width: 136px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    transition: all ease-in-out .3s;
+}
+.menuheader:hover {
+    color: white;
+}
+.botonav {
+    color: #dfdfe1;
+    font-weight: 300;
+    transition: all ease-in-out .3s;
+}
+.botonav:hover {
+    color: #dfdfe1;
+    font-weight: 300;
+    font-size: 15px;
+}
+.fondomenu {
+    padding-top: 8px;
+    padding-bottom: 8px;
+   
+}
+.mat-menu-content .ng-tns-c78-1 {
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+}
+.fa-bars {
+    font-size: 23px;
+    cursor: pointer;
+    color: white;
+    margin-top: 5px;
+}
+@media (max-width:468px) {
+    .menuheader{
+        justify-content: end;
+        display: none;
+    }
+}
+@media (max-width:468px) {
+    .bg-dark {
+        background-color: #1e1e2f !important;
+        height: 80px;
+        justify-content: center;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 10px;
+        margin-top: 15px;
+        }
+    }
+    @media (max-width:468px) {
+        .navbar-brand{
+            margin-right: 0 !important;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            font-size: 18px;
+        }
+    }
+    span {
+        color: white;
+        font-weight: 100;
+    }
+    @media (max-width:468px) {
+        span {
+            color: #b3405f;
+            font-weight: 100;  
+        }
+    }

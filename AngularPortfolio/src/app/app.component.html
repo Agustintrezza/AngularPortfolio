@@ -1,0 +1,18 @@
+
+<div class="container-fluid">
+  <app-header [inputSideNav]="sidenav"></app-header>
+  <mat-sidenav-container>
+    <mat-sidenav #sidenav closed class="sidenavbottom" style="bottom: auto;">
+      <!-- Otra opcion para utilizar como parametro del sidenav es "mode="side". -->
+      <app-sidebar>HOLA</app-sidebar>
+    </mat-sidenav>
+    <mat-sidenav-content>
+      <router-outlet></router-outlet>
+      <app-footer></app-footer>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+
+  <!-- <app-footer></app-footer> -->
+</div>
+
+
